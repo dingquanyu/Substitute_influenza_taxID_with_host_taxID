@@ -1,26 +1,26 @@
-species_name,taxonomy_ID,species name
-Human,9606,homo sapiens
-Avian,9031,Gallus gallus
-Swine,9823,Sus scrofa
-Canine,9615,Canis lupus familiaris
-Mink,9655,Mustelidae
-Equine,9796,Equus caballus
-Mouse,10090,Mus musculus
-Meerkat,37032,Suricata suricatta
-Seal,39089,Pagophilus groenlandicus
-Cat,9685,Felis catus
-Raccoon dog,34880,Nyctereutes procyonoides
-Tiger,9694,Panthera tigris
-Ferret,9655,Mustelidae
-Stone marten,9655,Mustelidae
-Cheetah,32536,Acinonyx jubatus
-Bat,9430,Desmodus rotundus
-Wild boar,9823,Sus scrofa
-Feline,9685,Felis catus
-Panda,212257,Panda
-Camel,647690,Camelops
-Whale,9749,Delphinapterus leucas
-Sloth bear,9636,Melursus ursinus
-Lion,9689,Panthera leo
-Pika,130829,Ochotona dauurica dauurica
-Penguin,9231,Spheniscidae
+species_name,ox
+Human,9606
+Avian,9031
+Swine,9823
+Canine,9615
+Mink,9655
+Equine,9796
+Mouse,10090
+Meerkat,37032
+Seal,39089
+Cat,9685
+Raccoon dog,34880
+Tiger,9694
+Ferret,9655
+Stone marten,9655
+Cheetah,32536
+Bat,9430
+Wild boar,9823
+Feline,9685
+Panda,212257
+Camel,647690
+Whale,9749
+Sloth bear,9636
+Lion,9689
+Pika,130829
+Penguin,9231
