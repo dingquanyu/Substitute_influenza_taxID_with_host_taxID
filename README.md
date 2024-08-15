@@ -1,6 +1,6 @@
 # Substitute_Influenza_taxID_with_host_taxID
-Scripts that were used to change the TaxID of the uniprot alignments of the Influenza sequences 
-into its corresponding Host TaxID
+This repo contains the scripts and the steps that were used to change the TaxID of the uniprot alignments of the Influenza sequences 
+into its corresponding Host Taxonomy IDs.
 
 # Step 1: Download Influnza genome dataset from NCBI
 NCBI Influenza genome dataset stored sequences of all the Influenza viruses from GenBank. The information of which host organisms these Influenza strains infect is stored in a file called genomeset.dat.
@@ -26,6 +26,8 @@ Run the following command:
 python modify_uniprot_fasta.py --genome_dat=./genomeset.dat \
 --msa_dir=/g/alphafold/influenza_gs/ --host_ox_codes=./influenza_host_species_OX_codes.csv
 ```
+```influenza_host_species_OX_codes.csv``` file can be downloaded from this Github repo.
+
 ⚠️ ```/g/alphafold/influenza_gs/``` is the path to all the sequene alignment results on the EMBL HPC cluster in Heidelberg. Each Influenza protein has its own subfolder under this path
 ```
 /g/alphafold/influenza_gs/
