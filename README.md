@@ -42,3 +42,7 @@ Run the following command:
               ...
       ...
 ```
+# Step 4: Re-run the feature generation step of AlphaPulldown
+After **Step 3**, the first step of AlphaPulldown needs to be rerun but using the updated uniprot.sto files. Simply run the ```create_individual_features.py```script from [AlphaPulldown](https://github.com/KosinskiLab/AlphaPulldown/tree/main)
+but with the ```use_precomputed_msas``` flag turned on.
+
