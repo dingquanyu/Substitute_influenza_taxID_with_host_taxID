@@ -22,8 +22,9 @@ The CSV tables can be downloaded from: https://drive.google.com/drive/folders/18
 After AlphaFold alignes the sequence against the UniProt database, an MSA file called ```uniprot.sto``` will be created. All the aligned sequences are stored in the stockholm format.
 With the CSV tables creted by **Step 2**, now it is ready to substitute the taxonomy IDs of the Influenza homologues with the host organism taxonomy IDs.
 Run the following command:
-```python modify_uniprot_fasta.py --genome_dat=./genomeset.dat \
-  --msa_dir=/g/alphafold/influenza_gs/ --host_ox_codes=./influenza_host_species_OX_codes.csv
+```
+python modify_uniprot_fasta.py --genome_dat=./genomeset.dat \
+--msa_dir=/g/alphafold/influenza_gs/ --host_ox_codes=./influenza_host_species_OX_codes.csv
 ```
 ⚠️ ```/g/alphafold/influenza_gs/``` is the path to all the sequene alignment results on the EMBL HPC cluster in Heidelberg. Each Influenza protein has its own subfolder under this path
 ```
